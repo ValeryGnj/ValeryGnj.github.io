@@ -89,21 +89,103 @@
     font-display: swap;
 }
 html {
-    width: 100%;
+    box-sizing: border-box;
 }
 *, *::before, *::after{
     box-sizing: inherit;
 }
-.body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+.container_0 {
+    max-width: 1080px;
+    max-height: 2024px;
+    margin: 0 auto;
 }
+.header {
+    background-position: center;
+    width: 100%;
+    height: 1195px;
+    background-size: cover;
+    background: linear-gradient(180.09deg, #E4CFBC 19.84%, #D5D1CD 99.93%);
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_header {
+    background-image: url(lexus_main.png);
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    margin: 10px;
+    background-size: cover;
+}
+.img_header img {
+    width: auto;
+    height: auto;
+}
+.header_title_1 {
+    float: left;
+    width: 751px;
+    height: 244px;
+    position: absolute;
+    top: 244px;
+    left: 34px;
+    font-family: 'Supernatural KG', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 122px;
+
+    color: #FFFFFF;
+}
+.header_title_2 {
+    float: left;
+    width: 356px;
+    height: 93px;
+    position: absolute;
+    top: 687px;
+    left: 90px;
+    font-family: 'Supernatural KG', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 38px;
+
+    color: #2E2E2E;
+}
+
+@media (max-with: 1080px) {
+    .header_title_1 {
+        width: 50%;
+    }
+    .header_title_2 {
+        width: 50%;
+    }
+    .img_header {
+        width: 50%;
+        text-align: centr;
+    }
+    .header {
+        height: auto;
+    }
+}
+
+@media (max-with: 768px) {
+    .header_title_1 {
+        display: none;
+    }
+    .header_title_2 {
+        width: 100%;
+    }
+    .img_header {
+        width: 30%;
+    }
+}
+
 .content {
     position: absolute;
     width: 100vw;
     height: 13371px;
-    top: 1195px;
+    top: 2024px;
     background: #FFFFFF;
     font-family: Inter, sans-serif;
     font-size: 30px;
@@ -113,59 +195,14 @@ html {
     text-align: left;
     color: #0E0E0E;
 }
-.container_0 {
-    width: 100vw;
-    height: 100vh;
-}
-.header {
-    width: 100vw;
-    min-height: 14498px;
-    padding-top: 0;
-
-    background: linear-gradient(180.09deg, #E4CFBC 19.84%, #D5D1CD 99.93%);
-}
-.img_header {
-    position: absolute;
-    width: 970px;
-    height: 1215px;
-    left: calc(50% - 967px/2 + 195px);
-    top: -20px;
-    background: url(Lexus_main.png);
-}
-.header_title_1 {
-    width: 751px;
-    height: 244px;
-    padding-left: calc(50% - 751px/1.7 - 130.5px);
-    padding-top: 244px;
-
-    font-family: 'Supernatural KG', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 122px;
-
-    color: #FFFFFF;
-}
-
-.header_title_2 {
-    width: 356px;
-    height: 93px;
-    padding-left: 90px;
-    padding-top: 187px;
-
-    font-family: 'Supernatural KG', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 38px;
-
-    color: #2E2E2E;
-}
 .container_1 {
     align-items: center;
     width: 966px;
     height: 151px;
     top: 1249px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
 
 }
 .Rectangle_7 {
@@ -175,12 +212,16 @@ html {
     line-height: 37px;
     letter-spacing: 0em;
     text-align: left;
+    
 }
 .container_wave {
     width: 153px; 
-    height: 47px; 
-    top: 370px; 
+    height: 198px; 
+    top: 1426px; 
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 .mark {
     align-items: center;
@@ -190,6 +231,8 @@ html {
     height: 339px;
     top: 1650px;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description {
     font-family: 'Inter', sans-serif;
@@ -198,6 +241,7 @@ html {
     font-size: 30px;
     line-height: 121.92%;
     text-align: left;
+    padding: auto;
 
     color: #0E0E0E;
 }
@@ -212,8 +256,10 @@ html {
     background: #E4CFBC;
 }
 .container_button_up {
+    position: absolute;
     top: 2102px;
-    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
 }
 .button_1 {
     width: 540px;
@@ -227,13 +273,16 @@ html {
     background: #AAAFAB;
     border-radius: 44px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button_1 :hover {
     background-color: #232222;
 }
 .container_button_down {
+    position: absolute;
     top: 7267px;
-    align-items: center;
+    
 }
 .button_2 {
     width: 540px;
@@ -294,16 +343,15 @@ h2 {
     padding: 10px;
     border: 2px solid #99d9c6
 }
-/* Line 14 */
-
-/* Список 1 */
 .list_1 {
-
+    position: absolute;
     width: 479px;
     height: 0px;
     left: 386px;
     top: 2384px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Line14 {
     width: 479px; 
@@ -312,9 +360,14 @@ h2 {
     transform-origin: 0 0; 
     border: 5px #1D1D1D solid
 }
+.list_2 {
+    position: absolute;
+    top: 3752px;
+}
 ul {
+    padding-left: 50px;
+    text-align: center;
     list-style-type: none;
-    padding-left: 500px;
 }
 
 .big_0 {
@@ -324,6 +377,7 @@ ul {
     color: #1D1D1D;
     font-family: Inter;
     word-wrap: break-word;
+    
 }
 li {
     font-family: Inter, sans-serif;
@@ -332,6 +386,7 @@ li {
     line-height: 37px;
     letter-spacing: 0em;
     text-align: left;
+    list-style-type: url("icons/Rectangle_1.png");
 }
 
 .container_3 {
@@ -387,7 +442,7 @@ li {
     left: 148px;
 }
 .list_2_items {
-    list-style-image: url(icons/Rectangle_1.png);  
+    list-style-image: url(Rectangle_1.png);  
 }
 .big_1 {
     font-family: Inter, sans-serif;
@@ -399,8 +454,8 @@ li {
 
     color: #DBB2BA;
 
-    list-style: none; /* Убираем исходные маркеры */
-    background: url(icons/Rectangle_1.png) no-repeat 0 50%; /* Параметры фона */
+    
+    /*<background: url(Rectangle_1.png) no-repeat 0 50%; /* Параметры фона */
 }
 li {
     font-family: Inter, sans-serif;
@@ -516,7 +571,6 @@ li {
     display: block;
     position: absolute;
     visibility: visible;
-    vertical-align: middle;
     -webkit-text-size-adjust: 100%;
     rotate: -5deg;
 }
@@ -569,9 +623,9 @@ li {
     position: absolute;
     width: 990px;
     height: 309px;
+    left: 183px;
     display: flex;
     align-items: center;
-    justify-content: center;
     top: 10043px;
 }
 .description_5 {
@@ -595,10 +649,11 @@ li {
     width: 962px;
     height: 449px;
     top: 10506px;
-    left: 59px;
-    display: flex;
+
+
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .h3 {
     font-family: Inter, sans-serif;
@@ -606,7 +661,7 @@ li {
     font-weight: 500;
     line-height: 46px;
     letter-spacing: 0em;
-    text-align: left;
+    
 
 }
 .description_6 {
@@ -629,7 +684,6 @@ li {
     width: 1252px;
     height: 1724px;
     top: 11050px;
-    left: -44px;
     align-items: center;
 }
 .container_16 {
@@ -637,7 +691,7 @@ li {
     width: 1245px;
     height: 526.44px;
     top: 12829px;
-    left: -82px;
+    align-items: center;
 }
 .container_17 {
     position: absolute;
