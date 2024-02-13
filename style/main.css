@@ -184,7 +184,7 @@ html {
 .content {
     position: absolute;
     width: 100vw;
-    height: 13371px;
+    height: 13000px;
     top: 2024px;
     background: #FFFFFF;
     font-family: Inter, sans-serif;
@@ -196,14 +196,11 @@ html {
     color: #0E0E0E;
 }
 .container_1 {
-    align-items: center;
+    position: absolute;
     width: 966px;
     height: 151px;
     top: 1249px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
-
+    left: 120px;
 }
 .Rectangle_7 {
     font-family: Inter, sans-serif;
@@ -211,28 +208,26 @@ html {
     font-weight: 500;
     line-height: 37px;
     letter-spacing: 0em;
-    text-align: left;
-    
+    text-align: left;  
 }
 .container_wave {
     width: 153px; 
     height: 198px; 
     top: 1426px; 
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+    left: 300px;
+    margin-top: 300px;
 }
 .mark {
     align-items: center;
 }
 .container_2 {
+    position: absolute;
     width: 966px;
     height: 339px;
     top: 1650px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    left: 120px;
 }
 .description {
     font-family: 'Inter', sans-serif;
@@ -258,8 +253,7 @@ html {
 .container_button_up {
     position: absolute;
     top: 2102px;
-    padding-left: auto;
-    padding-right: auto;
+    left: 300px;
 }
 .button_1 {
     width: 540px;
@@ -282,7 +276,7 @@ html {
 .container_button_down {
     position: absolute;
     top: 7267px;
-    
+    left: 300px;
 }
 .button_2 {
     width: 540px;
@@ -394,7 +388,7 @@ li {
     width: 966px;
     height: 260px;
     top: 3005px;
-    left: 77px;
+    left: 120px;
 }
 .description_1 {
     font-family: Inter, sans-serif;
@@ -685,6 +679,7 @@ li {
     height: 1724px;
     top: 11050px;
     align-items: center;
+    left: 143px;
 }
 .container_16 {
     position: absolute;
@@ -698,7 +693,7 @@ li {
     width: 777px;
     height: 328px;
     top: 13480px;
-    left: -44px;
+    left: 200px;
     align-content: center;
 }
 .h2 {
