@@ -184,7 +184,7 @@ html {
 .content {
     position: absolute;
     width: 100vw;
-    height: 13000px;
+    height: 100vh;
     top: 2024px;
     background: #FFFFFF;
     font-family: Inter, sans-serif;
@@ -199,8 +199,8 @@ html {
     position: absolute;
     width: 966px;
     height: 151px;
-    top: 1249px;
-    left: 120px;
+    top: 1195px;
+    left: 100px;
 }
 .Rectangle_7 {
     font-family: Inter, sans-serif;
@@ -254,6 +254,8 @@ html {
     position: absolute;
     top: 2102px;
     left: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button_1 {
     width: 540px;
@@ -267,8 +269,6 @@ html {
     background: #AAAFAB;
     border-radius: 44px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
 }
 .button_1 :hover {
     background-color: #232222;
@@ -290,6 +290,8 @@ html {
     background: #AAAFAB;
     border-radius: 44px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button_2 :hover {
     background-color: #232222;
@@ -464,7 +466,8 @@ li {
     width: 920px;
     height: 333px;
     top: 4800px;
-    left: 77px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description_2 {
     font-family: Inter, sans-serif;
@@ -482,7 +485,8 @@ li {
     width: 1200px;
     height: 30px;
     top: 5896px;
-    left: 122px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services_left {
     font-family: Inter, sans-serif;
@@ -509,7 +513,8 @@ li {
     width: 920px;
     height: 296px;
     top: 6830px;
-    left: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description_3 {
     font-family: Inter, sans-serif;
@@ -524,7 +529,8 @@ li {
     width: 372px;
     height: 185px;
     top: 7817px;
-    left: 142px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description_4 {
     font-family: Inter, sans-serif;
@@ -541,7 +547,8 @@ li {
     width: 141px;
     height: 610px;
     top: 6959px;
-    left: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description_comma {
     font-family: Inter, sans-serif;
@@ -556,8 +563,8 @@ li {
     position: absolute;
     width: 600px;
     height: 650px;
-    left: 505px; 
     top: 7508px;
+    margin-left: 390px;
 }
 .pic_before {
     width: 373px;
@@ -606,9 +613,10 @@ li {
     width: 1166px;
     height: 1606px;
     top: 8326px;
-    left: 183px;
     position: absolute;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .pic_double_before_after {
     position: relative;
@@ -617,10 +625,11 @@ li {
     position: absolute;
     width: 990px;
     height: 309px;
-    left: 183px;
     display: flex;
     align-items: center;
     top: 10043px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description_5 {
     position: absolute;
@@ -643,11 +652,8 @@ li {
     width: 962px;
     height: 449px;
     top: 10506px;
-
-
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .h3 {
     font-family: Inter, sans-serif;
@@ -679,7 +685,8 @@ li {
     height: 1724px;
     top: 11050px;
     align-items: center;
-    left: 143px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container_16 {
     position: absolute;
@@ -693,14 +700,15 @@ li {
     width: 777px;
     height: 328px;
     top: 13480px;
-    left: 200px;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .h2 {
     width: 701px;
     height: 96px;
 
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 79px;
     font-weight: 600;
     line-height: 96px;
