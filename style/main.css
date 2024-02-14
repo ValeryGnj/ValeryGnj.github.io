@@ -154,7 +154,7 @@ html {
     color: #2E2E2E;
 }
 
-@media (max-with: 1100px) {
+@media (max-with: 1079px) {
     .header_title_1 {
         width: 50%;
     }
